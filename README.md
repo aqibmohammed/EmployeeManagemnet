@@ -1,4 +1,4 @@
-# ProductManagement
+# Employee Management
 *A Java Application Using Java servlets where employee can sign in or signup and can view their details and can change their name and other neccesary details but not the employee id and they can delete their account this project helped me understand more about servlets and sessions although I have not added the signout option still I have learned many things from it*
 
 
