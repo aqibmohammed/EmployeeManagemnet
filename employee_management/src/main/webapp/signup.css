@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+body{
+	  font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: montserrat;
+    background: linear-gradient(90deg,#134B70,#201E43);
+    box-sizing: border-box;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#signup{
+
+    position: absolute;
+    top: 2%;
+    left: 40%;
+    width: 450px;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+   
+}
+
+#signup h2{
+    text-align: center;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid silver;
+    color: #134B70;
+}
+
+#signup form{
+    padding: 0 100px;
+    box-sizing: border-box;
+}
+
+ form .txt_field{
+    position: relative;
+    /* border-bottom: 2px solid; */
+    margin: 20px 0;
+}
+.txt_field input{
+    width: 90%;
+    padding: 0px 5px;
+    height: 30px;
+    font-size: 14px;
+    border-radius: 5px;
+    
+}
+.txt_field ::placeholder{
+    font-size: 12px;
+}
+input[type="submit"]{
+    width: 100%;
+    height: 40px;
+    border: 1px solid;
+    background: linear-gradient(160deg,#134B70,rgb(143, 143, 184));
+    border-radius: 20px;
+    font-size: 16px;
+    color: white;
+
+}
+
+input[type="submit"]:hover{
+    border-color:rgb(143, 143, 184);
+    cursor: pointer;
+    transition: .5s;
+}
+
+#crtaccount{
+    margin: 20px 0;
+    text-align: center;
+    font-size: 14px;
+
+}
+
+#crtaccount a{
+    color: #134B70 ;
+    text-decoration: none;
+}

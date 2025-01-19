@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+             padding: 0;
+             font-family: montserrat;
+             background: linear-gradient(10deg,#134B70,#508C9B);
+             box-sizing: border-box;
+             height: 100vh;
+             overflow: hidden;
+        }
+
+        div{
+            padding-top: 100px;
+            text-align: center;
+            color: white;
+        }
+
+      input[type="submit"]{
+        width: 200px;
+    height: 50px;
+    border: 1px solid #508C9B;
+    background-color: #134b70b3;
+    border-radius: 15px;
+    font-size: 16px;
+    color: white;
+       }
+
+       
+input[type="submit"]:hover{
+    border-color: white;
+    cursor: pointer;
+    transition: .5s;
+}
+    </style>
+</head>
+<body>
+
+    <div>
+        <h2>Welocme to home Page</h2>
+        <p>To view and to perform other operations click ViewDetails </p>
+        <form action="home" method="post">
+
+            <input type="submit" value="ViewDetails">
+        </form>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<style type="text/css">
+
+body{
+               font-family: "Montserrat", sans-serif;
+            margin: 0;
+            padding: 0;
+            font-family: Montserrat, sans-serif;
+            background: linear-gradient(10deg, #EEEEEE, #508C9B);
+            box-sizing: border-box;
+            height: 100vh;
+            overflow: hidden;
+        }
+        h1{
+            text-align: center;
+            color: #134B70;
+        }
+        #yes{
+            background-color:lavender ;
+            padding: 8px 25px;
+            border-radius: 10px;
+            border: 1px solid #508C9B;
+
+            margin-left: 40%;
+            position: absolute;
+            margin-top: 10px;
+        }
+        #yes:hover{
+            cursor: pointer;
+            border: 1px solid white;
+        }
+        #no{
+            background-color:lavender ;
+            padding: 8px 25px;
+            border-radius: 10px;
+            border: 1px solid #508C9B;
+            margin-left: 50%;
+            position: absolute;
+            margin-top: 10px;
+        }
+        #no:hover{
+            cursor: pointer;
+            border: 1px solid white;
+        }
+</style>
+<body>
+	<form action="delete" method="post">
+	<h1>Are you sure you want to delete your Account?</h1>
+	<button id="yes">Yes</button>
+	</form>
+	<form action="home" method="post">
+	<button id="no">No</button>
+	</form>
+</body>
+</html>

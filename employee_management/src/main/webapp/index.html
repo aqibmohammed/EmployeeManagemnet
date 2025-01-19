@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<style type="text/css">
+body{
+               font-family: "Montserrat", sans-serif;
+            margin: 0;
+            padding: 0;
+            font-family: Montserrat, sans-serif;
+            background: linear-gradient(10deg, #EEEEEE, #508C9B);
+            box-sizing: border-box;
+            height: 100vh;
+            overflow: hidden;
+        }
+        #gt{
+            color: lavender;
+            text-align: center;
+        }
+	.container{
+		display :flex;
+		flex-direction: row;
+		justify-content: space-between;
+		width: 30%;
+		position: absolute;
+		top:20%;
+		left:28%;
+	}
+	
+	.container h2{
+	margin-right: 300px;
+    color: lavender;
+	width: 80%;
+    margin-bottom: 30px;
+	}
+    #child1{
+        text-align: center;
+
+    }
+
+
+    #child1 a{
+        margin-right: 60px;
+        text-decoration: none;
+        color: white;
+        padding: 15px 25px ;
+        border-radius: 10px;
+     
+        border: 1px solid #EEEEEE;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        background-color: #508C9B;
+        font-size: 16px;
+    }
+    #child1 a:hover{
+        border: 1px solid #508C9B;
+    }
+
+
+    #child2 a{
+        margin-left: 70px;
+        text-decoration: none;
+        color: white;
+        padding: 15px 25px ;
+        border-radius: 10px;
+     
+        border: 1px solid #EEEEEE;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        background-color: #508C9B;
+        font-size: 16px;
+    }
+    #child2 a:hover{
+        border: 1px solid #508C9B;
+    }
+
+    #child2 h2{
+        margin-bottom: 60px;
+    }
+
+</style>
+</head>
+<body>
+    <h2 id="gt">Hello There Welcome to this Portal!</h2>
+<div class="container">
+
+	<div id="child1">
+	<h2>New User? Create an Account</h2>
+		<a href="signup.html"> Sign Up</a>
+	</div>
+	
+	<div id="child2">
+	<h2>Existing User? Sign In</h2>
+	<a href="signin.html">Sign In</a>
+</div>
+</div>
+
+</body>
+</html>
